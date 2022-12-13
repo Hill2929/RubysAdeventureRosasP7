@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7106336699486853159}
   - component: {fileID: -1569358951039996229}
   - component: {fileID: 5622380211155607387}
+  - component: {fileID: 1673972973}
   m_Layer: 0
   m_Name: Damageable
   m_TagString: Untagged
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 2
+  m_DrawMode: 0
   m_Size: {x: 2.4580274, y: 2.2977853}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 1
@@ -111,16 +112,37 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0028762817, y: 0.025238395}
+  m_Offset: {x: 0.0048179626, y: 0.0055406094}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 2.4580274, y: 2.2977853}
     adaptiveTilingThreshold: 0.5
-    drawMode: 2
+    drawMode: 0
     adaptiveTiling: 1
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 2.5155869, y: 2.2343762}
+  m_Size: {x: 2.6432495, y: 2.4080539}
   m_EdgeRadius: 0
+--- !u!50 &1673972973
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696352363489016039}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
