@@ -106,7 +106,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -4934,7 +4934,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.040913314, y: 0.66972554}
+  m_Offset: {x: -0.040913314, y: 0.46126652}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -4945,7 +4945,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6779755, y: 1.3361113}
+  m_Size: {x: 0.6779755, y: 0.91919327}
   m_EdgeRadius: 0
 --- !u!50 &8327794935318690828
 Rigidbody2D:
@@ -5003,7 +5003,7 @@ MonoBehaviour:
   speed: 2
   vertical: 0
   changeTime: 3
-  smokeEffect: {fileID: 1989725069411487947, guid: fb3d46610f9b37d448eb4a3a3c8cad6f, type: 3}
+  smokeEffect: {fileID: 1140879168}
 --- !u!82 &1535024438
 AudioSource:
   m_ObjectHideFlags: 0
